@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+	<title>Lab.108 | Главная</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1>▯▯__▯</h1>
+	<hr>
+	<div id="nav">
+		<ul>
+			<li><a href="./index.html">Главная</a></li>
+			<li><a href="./news.html">Новости</a></li>
+			<li><a href="./experiments.html">Эксперименты</a></li>
+		</ul>
+	</div>
+	<div class="content">
+		<div class="news">
+			<h1>Поломка</h1>
+			<div class="news-text">
+				В результате последнего эксперимента данные нашего сервера были повреждены. Мы работаем над восстановлением.  
+			</div>
+		</div>
+	</div>     
+</body>
+<footer>
+	<hr>
+	&copy;Lab.108
+</footer>
+<script>
+	    function showImg(event)
+	    {
+            	event = event || window.event; // получаем объект события
+          		var iconImg = event.Target || event.srcElement; // определяем текущий объект
+          		if (iconImg.tagName == "IMG"){ // если тип элемента - изображение, то
+	          	document.getElementById("bigImg").src = iconImg.getAttribute('src');  // меняем значение src у элемента с id="bigImg" на src текущего объекта 
+		    }
+		} 
+</script>   
+</html>

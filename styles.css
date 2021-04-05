@@ -1,0 +1,84 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #1952d1;
+    color: #fff;
+    text-align: center;
+}
+
+body #nav {
+    text-align: center;
+}
+
+#nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.content {
+    width: 1000px;
+    margin: 10px auto;
+}
+
+.exp {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.exp .step {
+    display: inline;
+    color: green;
+}
+
+.step.verification {
+    color: yellow;
+}
+
+.icons img {
+        height: 150px; 
+        display: inline; 
+        cursor: pointer;
+        border-bottom: 1px solid #ccc; 
+    }
+/*Не забудем прижать иконки к левой части галереи:*/
+.icons {
+    margin: 10px auto;
+}
+/*Ограничим высоту большого изображения и зададим рамку*/
+.big-image img {
+    height: 422px;
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+}
+/*Выровняем блок с основным изображением по левому краю и зададим внешние отступы*/
+.big-image {
+    margin: 10px auto;
+    border: 1px solid #ccc;
+}
+/*Зададим отступы контейнеру с галереей для более гармоничного вида из браузера:*/
+.gallery {
+   margin: 30px;
+}
+
+     .icons img {
+        height: 130px; 
+        display: inline; 
+        cursor: pointer;
+        border-bottom: 1px solid #ccc; 
+        opacity: .6;
+        padding: 10px;
+    }
+
+ .icons img:hover {
+    opacity:1;
+}
+.icons img:active {
+    opacity:1;
+}
+
+footer {
+    width: 1000px;
+    margin: 50px auto 10px;
+}
